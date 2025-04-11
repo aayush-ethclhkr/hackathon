@@ -1,0 +1,17 @@
+mkdir password-manager && cd password-manager
+mkdir backend frontend database
+cd backend
+touch main.py models.py
+mkdir routes services utils
+cd ..
+cd frontend
+npx create-react-app .
+npm install tailwindcss axios react-router-dom
+
+
+INSTALL NODE JS 
+node -v
+npx -v
+
+
+
