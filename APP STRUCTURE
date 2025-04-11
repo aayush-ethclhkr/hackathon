@@ -1,6 +1,11 @@
 mkdir password-manager && cd password-manager
-mkdir backend frontend database
+mkdir backend 
 cd backend
+
+#creating venv
+python -m venv venv
+venv\Scripts\activate
+
 touch main.py models.py
 mkdir routes services utils
 cd ..
