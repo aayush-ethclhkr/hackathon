@@ -1,1 +1,11 @@
+#bash file
+##Install Python & Virtual Environment
+
+python -m venv venv
+source venv/bin/activate  # macOS/Linux
+venv\Scripts\activate  # Windows
+
+## Install Required Libraries
+pip install fastapi uvicorn pydantic bcrypt sqlalchemy psycopg2 pyotp requests scikit-learn joblib passlib python-multipart
+
 
