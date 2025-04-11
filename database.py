@@ -12,3 +12,6 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 # Base class
 Base = declarative_base()
+
+: Database Setup
+pip install sqlalchemy psycopg2
