@@ -21,8 +21,6 @@ uvicorn main:app --reload
 Test Karne Ke Liye:
 http://127.0.0.1:8000
 
-: Database Setup
-pip install sqlalchemy psycopg2
 
 
 
