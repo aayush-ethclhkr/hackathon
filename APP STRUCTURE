@@ -13,6 +13,7 @@ pip install fastapi uvicorn pydantic bcrypt sqlalchemy psycopg2 pyotp requests s
 mkdir routes, services, utils
 touch main.py models.py database.py
 
+# main.py --- FastAPI Server Setup
 
 
 
