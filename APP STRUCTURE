@@ -9,6 +9,12 @@ venv\Scripts\activate\
 ## Install Required Libraries
 pip install fastapi uvicorn pydantic bcrypt sqlalchemy psycopg2 pyotp requests scikit-learn joblib passlib python-multipart
 
+#Step 5: Backend Folder Structure Setup
+mkdir routes, services, utils
+touch main.py models.py database.py
+
+
+
 
 
 
