@@ -4,19 +4,13 @@ cd backend
 
 #creating venv
 python -m venv venv
-venv\Scripts\activate
+venv\Scripts\activate\
 
-touch main.py models.py
-mkdir routes services utils
-cd ..
-cd frontend
-npx create-react-app .
-npm install tailwindcss axios react-router-dom
+## Install Required Libraries
+pip install fastapi uvicorn pydantic bcrypt sqlalchemy psycopg2 pyotp requests scikit-learn joblib passlib python-multipart
 
 
-INSTALL NODE JS 
-node -v
-npx -v
+
 
 
 
