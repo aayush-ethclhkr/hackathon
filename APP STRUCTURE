@@ -15,6 +15,13 @@ touch main.py models.py database.py
 
 # main.py --- FastAPI Server Setup
 
+Server Run Karke Test Karna
+uvicorn main:app --reload
+
+Test Karne Ke Liye:
+http://127.0.0.1:8000
+
+
 
 
 
